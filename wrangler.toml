@@ -1,9 +1,7 @@
-name = "telegram-price-alert-bot"
+name = "telegram-registration-bot"
 main = "worker.js"
 compatibility_date = "2025-12-03"
 
 [vars]
 ADMIN_GROUP_ID = "-1003378655692"
-
-[env.production]
-# اضافه کردن Secret TELEGRAM_TOKEN در Cloudflare
+TELEGRAM_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
