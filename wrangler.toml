@@ -1,7 +1,3 @@
 name = "telegram-price-alert-bot"
 main = "worker.js"
 compatibility_date = "2025-12-03"
-
-[env]
-# اگر چند محیط خواستی اضافه کن
-
